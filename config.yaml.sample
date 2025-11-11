@@ -1,0 +1,13 @@
+minecraft_location: '/opt/minecraft'
+backup_location: '/opt/minecraft-backup/backups'
+backup_folders: ['world', 'world_nether', 'world_the_end']
+silent: false
+rcon_ip: 'localhost'
+rcon_port: 25575
+rcon_password: ''
+retention:
+  yearly: 1
+  monthly: 12
+  weekly: 7
+  daily: 1
+  hourly: 0

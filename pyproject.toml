@@ -1,0 +1,10 @@
+[project]
+name = "minecraft-backup"
+version = "0.1.0"
+description = "A thinning Minecraft backup script"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "mcipc>=2.4.2",
+    "pyyaml>=6.0.3",
+]
