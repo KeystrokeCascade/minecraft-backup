@@ -27,4 +27,4 @@ uv run minecraft-backup.py
 | `rcon_ip` 					| String		| IP of Minecraft's RCON instance, should be `localhost` by default |
 | `rcon_port` 					| Integer		| Port of Minecraft's RCON instance, should be `25575` by default |
 | `rcon_password` 				| String		| Password of Minecraft's RCON instance, set in server.properties |
-| `retention` 					| Dict			| Used to set how many backups for each thinning period to retain, to not backup a period set to `0` |
+| `retention` 					| Dict			| Used to set how many backups for each thinning period to retain.  To not backup a period set to `0`.  All keys *must* be present. |
