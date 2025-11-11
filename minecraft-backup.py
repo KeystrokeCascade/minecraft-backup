@@ -73,7 +73,7 @@ def main():
 			delete_backups += period_backups[config['retention'][period]:]
 
 	for backup in delete_backups:
-		os.remove(os.path.join(config['backup_location'], backup)
+		os.remove(os.path.join(config['backup_location'], backup))
 		print(f'Deleted {backup}')
 
 if __name__ == '__main__':
