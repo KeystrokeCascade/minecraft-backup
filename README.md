@@ -1,5 +1,5 @@
 # Minecraft Backup
-A Minecraft backup script using RCON and thinning backups.
+A Minecraft backup script using RCON and thinning backups based on calendar date.
 
 ---
 
